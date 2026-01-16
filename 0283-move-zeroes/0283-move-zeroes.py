@@ -13,7 +13,7 @@ class Solution(object):
                 nums[last_non_zero] = nums[i]
                 last_non_zero += 1
 
-        for i in range(last_non_zero, len(nums)):
+        for i in range(last_non_zero, len(nums)):      #fill zeroes
             nums[i] = 0
                 
 
